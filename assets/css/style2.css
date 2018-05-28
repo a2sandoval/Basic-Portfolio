@@ -1,4 +1,5 @@
 
+
 body {
 	margin: 0;
 	background-image:url(/Users/alejandrosandoval/basic-portfolio/assets/images/what-the-hex.png);
@@ -100,12 +101,6 @@ article h1 {
     
 }
 
-article hr {
-    border:none;
-    height: 5px;
-    color:grey;
-    background-color: grey;
-}
 .img {
     float: left;
     margin:4px 10px 0px 0px;
@@ -127,3 +122,37 @@ footer {
     position:relative;
 }
 li+li { border-left: 1px solid #000000 }
+
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.cform {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
